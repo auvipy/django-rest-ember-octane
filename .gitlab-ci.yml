@@ -1,0 +1,17 @@
+test:
+  script:
+    - cookiecutter . --no-input
+    - cd project_name
+    - source venv/bin/activate
+    - cd back
+    - python manage.py test
+    - cd ../front
+    - ember test
+    - cd ../..
+    - rm -rf project_name
+  tags:
+    - python 3.5
+    - local
+    - cookiecutter
+
+

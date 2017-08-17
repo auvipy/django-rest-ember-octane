@@ -1,0 +1,14 @@
+factory-boy
+Django
+djangorestframework
+django-cors-headers
+celery
+django-debug-toolbar
+django-debug-panel
+django-filter
+django-jenkins
+drf-schema-adapter
+drf-base64
+levit-report
+Pillow
+six

@@ -1,0 +1,12 @@
+{
+    "project_name": "Project name",
+    "author": "Your Name",
+    "username": "{{ cookiecutter.author|lower() }}",
+    "email": "you@domain.com",
+    "create_superuser": "no",
+    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|lower() }}",
+    "module_prefix": "{{ cookiecutter.repo_name|replace('_', '-') }}",
+    "python_executable": "python3.5",
+    "bootstrap_version": "3.3.7",
+    "fontawesome_version": "4.7.0"
+}
